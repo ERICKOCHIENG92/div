@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS POSITIONING</title>
+	<style type="text/css">
+		div{
+			margin-bottom: 10px;
+			
+		}
+		.top{
+			top:0;
+			width:100%;
+			background-color:maroon;
+			text-align: center;
+			height: 60px;
+		}
+        .left{
+        	float: left;
+        	background-image: url(img2.jpg);
+        	margin-right:0px;
+        	text-align: center;
+        	width:49.5%;
+        	height: 530px;
+        	
+        }
+        .right{
+        	float: right;
+        	background-image: url(img1.jpg);
+        	width:49.5%;
+        	text-align: center;
+        	height: 530px;
+        	margin-left:0px;
+        }
+
+         .bottom{
+         	clear: both;
+         	background-color: maroon;
+         	width: 100%;
+         	text-align: center;
+         	bottom: 0;
+         	position: fixed;
+         	height: 60px;
+
+         }
+        }
+	</style>
+</head>
+<body>
+<div class="top">top</div>
+<div class="right">right</div>
+<div class="left">left</div>
+<div class="bottom">bottom</div>
+</body>
+</html>
